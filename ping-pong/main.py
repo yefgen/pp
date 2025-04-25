@@ -16,6 +16,7 @@ class GameSprite(sprite.Sprite):
         self.speed = speed
         self.rect.x = pos_x
         self.rect.y = pos_y
+        print(self.rect)
 
     def reset(self):
         window.blit(self.img, self.rect)
